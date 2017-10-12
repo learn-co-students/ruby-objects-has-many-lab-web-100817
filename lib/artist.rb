@@ -12,12 +12,8 @@ class Artist
   end
 
   def add_song(song)
-    songs << song
+    @songs << song
     song.artist = name
-  end
-
-  def songs
-    @songs
   end
 
   def self.song_count
