@@ -25,7 +25,3 @@ class Author
   end
 
 end
-
-
-# #add_post_by_title
-#   takes in an argument of a post title, creates a new post with it and associates the post and author (FAILED - 1)
